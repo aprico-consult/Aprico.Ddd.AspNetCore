@@ -28,4 +28,13 @@
       <InternalsVisibleTo Include="$(AssemblyName).Tests"/>
    </ItemGroup>
 
+   <ItemGroup>
+      <FrameworkReference Include="Microsoft.AspNetCore.App" Version="2.2.0"/>
+   </ItemGroup>
+
+   <ItemGroup>
+      <PackageReference Include="Aprico.Ddd.Abstractions"/>
+      <PackageReference Include="FluentValidation"/>
+   </ItemGroup>
+
 </Project>

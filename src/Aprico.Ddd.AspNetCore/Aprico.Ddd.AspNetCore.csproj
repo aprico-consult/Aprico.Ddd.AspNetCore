@@ -35,6 +35,7 @@
    <ItemGroup>
       <PackageReference Include="Aprico.Ddd.Abstractions"/>
       <PackageReference Include="FluentValidation"/>
+      <PackageReference Include="Microsoft.SourceLink.GitHub"/>
    </ItemGroup>
 
 </Project>
